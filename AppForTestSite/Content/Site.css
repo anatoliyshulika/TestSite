@@ -1,0 +1,70 @@
+﻿#chart {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cell {
+    border: 1px solid black !important;
+}
+
+#tinout {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#buttons {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#siteTable {
+    border: 1px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+}
+
+#minMaxTable {
+    border: 1px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+}
+
+#textin {
+    width: 200px;
+}
+
+#buttonStart {
+    width: 95px;
+}
+
+#showTop {
+    width: 200px;
+}
+
+#cleardb {
+    width: 95px;
+}
+
+#loadimg {
+    display: none;
+    position: absolute;
+    left: 25%;
+    top: 20px;
+    z-index: 1000;
+    width: 800px;
+    height: 600px;
+}
+
+#loadim {
+    position: relative;
+    left: 30%;
+    top: 30%;
+}

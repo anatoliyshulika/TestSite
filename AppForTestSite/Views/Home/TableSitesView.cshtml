@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+<table class="table">
+    <tr>
+        <th class="cell">
+            Url
+        </th>
+        <th class="cell">
+            Total resp. time (ms)
+        </th>
+    </tr>
+    @{
+        foreach (Website d in ViewBag.topList)
+        {
+            <tr>
+                <td class="cell">
+                    @d.NamePath
+                </td>
+                <td class="cell">
+                    @d.LoadTime
+                </td>
+            </tr>
+        }
+    }
+</table>
+

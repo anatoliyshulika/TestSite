@@ -1,0 +1,17 @@
+﻿<div class="container">
+    <form>
+        <div id="tinout">
+            <span>Url:</span><br />
+            <input type="text" id="textin" />
+        </div>
+    </form><br />
+    <div id="buttons">
+        <button type="button" id="buttonStart" class="btn-default" onclick="TestSite(textin.value)">Test site</button>
+        <button type="button" id="showTop" class="btn-success" onclick="ShowTop()">Show top slowest sites</button>
+        <button type="button" id="cleardb" class="btn-warning" onclick="ClearDb()">Clear Db</button>
+    </div><br />
+    <div id="chart"></div><br />
+    <div id="minMaxTable"></div><br />
+    <div id="siteTable"></div>
+    <div id="loadimg"><img id="loadim" src="~/Content/load.gif" /></div>
+</div>
